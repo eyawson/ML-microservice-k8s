@@ -1,1 +1,11 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) ebowyawson@Ebows-MBP:~/projects/ML-microservice-k8s$ ./run_kubernet
+es.sh 
+Error from server (AlreadyExists): deployments.apps "ml-housing-predictor" al
+ready exists
+Error from server (AlreadyExists): pods "ml-housing-predictor" already exists
+NAME                                    READY   STATUS    RESTARTS   AGE
+ml-housing-predictor                    1/1     Running   0          5m40s
+ml-housing-predictor-575ffcc4cb-qbscz   1/1     Running   0          6m2s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
